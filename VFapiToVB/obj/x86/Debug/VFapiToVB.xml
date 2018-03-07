@@ -1,0 +1,753 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VFapiToVB
+</name>
+</assembly>
+<members>
+<member name="P:VFapiToVB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VFapiToVB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:VFapiToVB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:VFapiToVB.mod_vyfakturuj.PrintExistNameOrDefaultName(System.String)">
+	<summary>
+ zjistit zda existuje nainstalovaná tiskárna, pokud ne zašle názevev defaultní tiskárny. Jinak String.Empty
+ </summary>
+	<returns>String</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.quantity">
+	<summary>
+ Množství
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Množství</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.unit">
+	<summary>
+ Množstevní jednotka (ks, kg, ...)
+ Práva: R/W
+ string10
+ </summary>
+	<returns>Vrátí Množstevní jednotka (ks, kg, ...)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.text">
+	<summary>
+ Text položky
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí Text položky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.unit_price">
+	<summary>
+ Cena položky
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Cena položky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.vat_rate">
+	<summary>
+ Sazba DPH (%)
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Sazba DPH (%)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.vat">
+	<summary>
+ Daň
+ Práva: R
+ </summary>
+	<returns>Vrátí Daň</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.total">
+	<summary>
+ Částka k úhradě
+ Práva: R
+ </summary>
+	<returns>Vrátí Částka k úhradě</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.items.total_without_vat">
+	<summary>
+ Částka k úhradě bez DPH
+ Práva: R
+ </summary>
+	<returns>Vrátí Částka k úhradě bez DPH</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.vats.vat_rate">
+	<summary>
+ Sazba DPH (%)
+ Práva: R
+ </summary>
+	<returns>Vrátí Sazba DPH (%)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.vats.base">
+	<summary>
+ Základ daně
+ Práva: R
+ </summary>
+	<returns>Vrátí Základ daně</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.vats.vat">
+	<summary>
+ Daň
+ Práva: R
+ </summary>
+	<returns>Vrátí Daň</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.vats.total">
+	<summary>
+ Celkem s DPH
+ Práva: R
+ </summary>
+	<returns>Vrátí Celkem s DPH</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.fik">
+	<summary>
+ FIK kód
+ </summary>
+	<returns>Vrátí FIK kód</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.bkp">
+	<summary>
+ BKP kód
+ </summary>
+	<returns>Vrátí BKP kód</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.pkp">
+	<summary>
+ PKP kód
+ </summary>
+	<returns>Vrátí PKP kód</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.id_provoz">
+	<summary>
+ ID provozovny
+ </summary>
+	<returns>Vrátí ID provozovny</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.id_pokl">
+	<summary>
+ ID pokladny
+ </summary>
+	<returns>Vrátí ID pokladny</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.dat_trzby">
+	<summary>
+ Datum tržby
+ </summary>
+	<returns>Vrátí Datum tržby</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.eet_data.rezim">
+	<summary>
+ Režim 0 - běžný, 1 - zjednodušený
+ </summary>
+	<returns>Vrátí Režim 0 - běžný, 1 - zjednodušený</returns>
+	<remarks>Práva: R</remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id">
+	<summary>
+ ID dokumentu
+ Práva: R
+ </summary>
+	<returns>Vrátí ID dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_customer">
+	<summary>
+ ID zaznamu v adresáři
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID zaznamu v adresáři</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_number_series">
+	<summary>
+ ID číselné řady
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID číselné řady</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_payment_method">
+	<summary>
+ ID platební metody
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID platební metody</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_center">
+	<summary>
+ ID střediska
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID střediska</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_parent">
+	<summary>
+ ID nadřazeného dokumentu
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID nadřazeného dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.id_eet_pokl">
+	<summary>
+ ID EET pokladny
+ Práva: R/W
+ </summary>
+	<returns>Vrátí ID EET pokladny</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.type">
+	<summary>
+ Typ dokladu - Práva: R/W    
+ 1 - Faktura
+ 2 - Zálohová faktura
+ 4 - Proforma faktura
+ 8 - Výzva k platbě
+ 16 - Daňový doklad
+ 32 - Opravný daňový doklad
+ 64 - Příjmový doklad
+ 128 - Opravný doklad
+ 512 - Objednávka
+ </summary>
+	<returns>Vrátí Typ dokladu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.flags">
+	<summary>
+ Příznaky - Práva: R  
+ 1 - Dokument obsahuje DPH
+ 2 - Uhrazeno
+ 4 - Odesláno e-mailem zákazníkovi
+ 8 - Doklad je stornován
+ 16 - Odeslána e-mailem zákazníkovi upomínka
+ 32 - Přeplatek
+ 64 - Nedoplatek
+ 256 - Doklad byl stažen účetním
+ </summary>
+	<returns>Vrátí Příznaky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.tags">
+	<summary>
+ Použité štítky 
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Použité štítky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.eet_status">
+	<summary>
+ Stav EET - Práva: R   
+ 1 - Nevstupuje - doklad nesplňuje podmínky pro vstup do EET
+ 2 - Neodesílat - při tisku dokladu nedojde k odeslání do EET
+ 4 - K odeslání - doklad je určen k odeslání do EET
+ 8 - Externě - záznam o tržbě evidovalo jiné zařízení
+ 16 - ODESLÁNO - doklad by odeslán do EET.
+ 32 - CHYBA - nastala chyba při odeslání.
+ </summary>
+	<returns>Vrátí ID EET pokladny</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.eet_data">
+	<summary>
+ EET data - array - Práva: R  
+ fik - FIK kód
+ bkp - BKP kód
+ 4 - K odeslání - doklad je určen k odeslání do EET
+ 8 - Externě - záznam o tržbě evidovalo jiné zařízení
+ 16 - ODESLÁNO - doklad by odeslán do EET.
+ 32 - CHYBA - nastala chyba při odeslání.
+ </summary>
+	<returns>Vrátí EET data</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.number">
+	<summary>
+ Číslo dokumentu 
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Číslo dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.date_created">
+	<summary>
+ Datum vytvoření
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Datum vytvoření</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.date_due">
+	<summary>
+ Datum splatnosti
+ Práva: R
+ </summary>
+	<returns>Vrátí Datum splatnosti</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.date_taxable_supply">
+	<summary>
+ Datum zdaňitelného plnění
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Datum zdaňitelného plnění</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.date_paid">
+	<summary>
+ Datum platby
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Datum platby</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.date_reminder">
+	<summary>
+ Datum zaslání připomínky
+ Práva: R
+ </summary>
+	<returns>Vrátí Datum zaslání připomínky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.days_due">
+	<summary>
+ Splatnost (dny)
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Splatnost (dny)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.days_reminder">
+	<summary>
+ Za jak dlouho zaslat připomínku po splatnosti (dny)
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Za jak dlouho zaslat připomínku po splatnosti (dny)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_IC">
+	<summary>
+ Dodavatel - IČ
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Dodavatel - IČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_DIC">
+	<summary>
+ Dodavatel - DIČ
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Dodavatel - DIČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_name">
+	<summary>
+ Dodavatel - název firmy
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Dodavatel - název firmy</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_street">
+	<summary>
+ Dodavatel - ulice
+ Práva: R/W
+ string50
+ </summary>
+	<returns>Vrátí Dodavatel - ulice</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_city">
+	<summary>
+ Dodavatel - město
+ Práva: R/W
+ string50
+ </summary>
+	<returns>Vrátí Dodavatel - město</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_zip">
+	<summary>
+ Dodavatel - PSČ
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Dodavatel - PSČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_country">
+	<summary>
+ Dodavatel - stát
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Dodavatel - stát</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_contact_name">
+	<summary>
+ Dodavatel - kontaktní osoba
+ Práva: R/W
+ string30
+ </summary>
+	<returns>Vrátí Dodavatel - kontaktní osoba</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_contact_tel">
+	<summary>
+ Dodavatel - kontaktní telefon
+ Práva: R/W
+ string30
+ </summary>
+	<returns>Vrátí Dodavatel - kontaktní telefon</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_contact_mail">
+	<summary>
+ Dodavatel - kontaktní mail
+ Práva: R/W
+ string30
+ </summary>
+	<returns>Vrátí Dodavatel - kontaktní mail</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.supplier_contact_web">
+	<summary>
+ Dodavatel - web
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Dodavatel - web</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_IC">
+	<summary>
+ Odběratel - IČ
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Odběratel - IČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_DIC">
+	<summary>
+ Odběratel - DIČ
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Odběratel - DIČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_name">
+	<summary>
+ Odběratel - název firmy
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Odběratel - název firmy</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_street">
+	<summary>
+ Odběratel - ulice
+ Práva: R/W
+ string50
+ </summary>
+	<returns>Vrátí Odběratel - ulice</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_city">
+	<summary>
+ Odběratel - město
+ Práva: R/W
+ string50
+ </summary>
+	<returns>Vrátí Odběratel - město</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_zip">
+	<summary>
+ Odběratel - PSČ
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Odběratel - PSČ</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.customer_country">
+	<summary>
+ Odběratel - stát
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Odběratel - stát</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.bank_account_number">
+	<summary>
+ Číslo bankovního účtu
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Číslo bankovního účtu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.bank_IBAN">
+	<summary>
+ Mezinárodní bankovní číslo (IBAN)
+ Práva: R/W
+ string60
+ </summary>
+	<returns>Vrátí Mezinárodní bankovní číslo (IBAN)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.bank_BIC">
+	<summary>
+ Mezinárodní kód banky (SWIFT/BIC)
+ Práva: R/W
+ string20
+ </summary>
+	<returns>Vrátí Mezinárodní kód banky (SWIFT/BIC)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.payment_method">
+	<summary>
+ Způsob platby - Práva: R/W
+ 1 - Bankovní převod
+ 2 - Hotovost
+ 4 - Dobírka
+ 8 - Kartou online
+ 128 - PayPal
+ 16 - Záloha
+ 32 - Zápočet
+ </summary>
+	<returns>Vrátí Způsob platby</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.calculate_vat">
+	<summary>
+ Výpočet DPH - Práva: R/W
+ 1 - Položky jsou uvedeny jako zákald daně
+ 2 - Položky mají koncovou cenu s DPH
+ 3 - DPH je účtováno ve speciálním režimu
+ 4 - DPH je v režimu prenesené daňové povinnosti
+ 5 - Neplátce DPH
+ </summary>
+	<returns>Vrátí Výpočet DPH</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.round_invoice">
+	<summary>
+ Zaokrouhlení dokumentu - Práva: R/W
+ 1 - Nezaokrouhlovat
+ 2 - Háleřové vyrovnání
+ 3 - Zaokrouhlit DPH
+ </summary>
+	<returns>Vrátí Zaokrouhlení dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.order_number">
+	<summary>
+ ID objednávky
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí ID objednávky</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.text_under_subscriber">
+	<summary>
+ Text pod dodavatelem
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí Text pod dodavatelem</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.text_under_customer">
+	<summary>
+ Text pod odběratelem
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí Text pod odběratelem</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.text_before_items">
+	<summary>
+ Text před položkami faktury
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí Text před položkami faktury</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.text_invoice_footer">
+	<summary>
+ Text v patičce dokumentu
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí Text v patičce dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.mark_already_paid">
+	<summary>
+ Zobrazit text: Již uhrazeno
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Zobrazit text: Již uhrazeno</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.mail_to">
+	<summary>
+ Emailové adresy kam bude (byl) odeslán email
+ Práva: R/W
+ array string
+ </summary>
+	<returns>Vrátí Emailové adresy kam bude (byl) odeslán email</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.language">
+	<summary>
+ Jazyková mutace faktury - Práva: R/W
+ cs - Česky
+ sk - Slovensky
+ en - Anglicky
+ de - Německy
+ </summary>
+	<returns>Vrátí Jazyková mutace faktury</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.VS">
+	<summary>
+ Variabilní symbol
+ Práva: R/W
+ string10
+ </summary>
+	<returns>Vrátí Variabilní symbol</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.KS">
+	<summary>
+ Konstantní symbol
+ Práva: R/W
+ string4
+ </summary>
+	<returns>Vrátí Konstantní symbol</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.SS">
+	<summary>
+ Specifický symbol
+ Práva: R/W
+ string10
+ </summary>
+	<returns>Vrátí Specifický symbol</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.currency">
+	<summary>
+ Měna
+ Práva: R/W
+ string5
+ </summary>
+	<returns>Vrátí Měna</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.exchange_rate">
+	<summary>
+ Převodní kurz měny
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Převodní kurz měny</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.total">
+	<summary>
+ Celková částka k úhradě
+ Práva: R
+ </summary>
+	<returns>Vrátí Celková částka k úhradě</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.total_without_vat">
+	<summary>
+ Celková částka k úhradě bez DPH
+ Práva: R
+ </summary>
+	<returns>Vrátí Celková částka k úhradě bez DPH</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.webhook_paid">
+	<summary>
+ URL která bude zavolána při úhradě dokumentu
+ Práva: R/W
+ string255
+ </summary>
+	<returns>Vrátí URL která bude zavolána při úhradě dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.url_public_webpage">
+	<summary>
+ URL s veřejnou stránkou dokumentu
+ Práva: R
+ string255
+ </summary>
+	<returns>Vrátí URL s veřejnou stránkou dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.url_download_pdf">
+	<summary>
+ URL pro stažení dokumentu v PDF
+ Práva: R
+ string255
+ </summary>
+	<returns>Vrátí URL pro stažení dokumentu v PDF</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.url_download_pdf_no_stamp">
+	<summary>
+ URL pro stažení dokumentu v PDF bez razítka
+ Práva: R
+ string255
+ </summary>
+	<returns>Vrátí URL pro stažení dokumentu v PDF bez razítka</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.disable_automated_mails">
+	<summary>
+ Vypne automatické zasílání e-mailu (uhrazení, upomínka)
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Vypne automatické zasílání e-mailu (uhrazení, upomínka)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.storno">
+	<summary>
+ Stornuje doklad
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Stornuje doklad</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.need_attention">
+	<summary>
+ Objednávka vyžaduje pozornost
+ Práva: R/W
+ </summary>
+	<returns>Vrátí Objednávka vyžaduje pozornost</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.log">
+	<summary>
+ Položky dokumentu - array
+ Práva: R
+ </summary>
+	<returns>Vrátí Položky dokumentu</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.X_1">
+	<summary>
+ Volitelná hodnota 1 (např. ID dokumentu ve Vašem systému)
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Volitelná hodnota 1 (např. ID dokumentu ve Vašem systému)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.X_2">
+	<summary>
+ Volitelná hodnota 2 (např. ID kontaktu ve Vašem systému)
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Volitelná hodnota 2 (např. ID kontaktu ve Vašem systému)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.X_3">
+	<summary>
+ Volitelná hodnota 3 (např. ID pokladna ve Vašem systému)
+ Práva: R/W
+ string100
+ </summary>
+	<returns>Vrátí Volitelná hodnota 2 (např. ID kontaktu ve Vašem systému)</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.action_after_create_send_to_eet">
+	<summary>
+ Akce: po vytvoření dokladu, zaslat automaticky do EET.
+ Práva: W
+ </summary>
+	<returns>Akce: po vytvoření dokladu, zaslat automaticky do EET.</returns>
+	<remarks></remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.items">
+	<summary>
+ Položky dokumentu - array
+ </summary>
+	<returns>Vrátí Položky dokumentu</returns>
+	<remarks>Práva: R/W</remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.related_documents">
+	<summary>
+ Položky dokumentu - array
+ </summary>
+	<returns>Vrátí Položky dokumentu</returns>
+	<remarks>Práva: R/W</remarks>
+</member><member name="P:VFapiToVB.vfapi.Faktura.vats">
+	<summary>
+ EET data - array - Práva: R
+ vat_rate
+ base
+ vat
+ total
+ </summary>
+	<returns>Vrátí EET data</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
